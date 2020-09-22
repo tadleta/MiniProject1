@@ -14,7 +14,6 @@ class Main {
     System.out.println("Please enter any positive whole number:");
     int userNum = s.nextInt();
     int randomNum = r.nextInt(userNum);
-    // System.out.println("number is " + randomNum);
     System.out.println("A random number to guess has been generated");
 
     playGame(randomNum, userNum);
